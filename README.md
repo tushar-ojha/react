@@ -8,7 +8,7 @@
 - Used in building single page application. Single page application means whole page doesn't load for small change, only the part which has changes reloads.
 - Can be used with CDN also but npm is the standard way of using React because it assists in managing packages, minifies the project in single file which is very helpful in production.
 
-### **Hello World and folder structure breakdown:**
+### **Folder structure breakdown:**
 	1. package.json saves our application details like project name, version of project and react, commands, all additional installed packages.
 	
 	2.  package-lock.json is expansion for package.json. It has all details of package.json. It stores details of node modules in the form of tree structure.
@@ -49,4 +49,26 @@
  - Visual wise, part of a bigger whole.
  - Inside these functions, we have our HTML elements!
  - We can use have components inside components but using the inner component is tedius, first we need to use/access outer component then inner.
+ - Components in react: Simple function and return inside it, inside return Simple HTML. Visualisation point!
+ - HTML must be wrapped inside single div.
 
+ ### **Class components in React:**
+ - Class > render > return > HTML code.
+ - HTML must be wrapped inside single div.
+
+### **JSX:**
+ - To write HTML and JS together.
+
+### **Click event and function**
+-  We write function name inside braces not write function call statement inside braces.
+
+### **State**
+- Component doesn't re-render in case of variables that's why we use State. React is designed in such a way.
+- State is a container, just like variable, to be more precise, they are like user defined data type i.e. Object.
+- To use state we use useState hook. 
+
+
+### **Prop**
+- Prop is short form of properties.
+- For understanding purpose, prop is just like parameter. Prop & Component = Parameter and function.
+- We can change the prop in the component in which we are receiving it.
