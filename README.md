@@ -66,9 +66,14 @@
 - Component doesn't re-render in case of variables that's why we use State. React is designed in such a way.
 - State is a container, just like variable, to be more precise, they are like user defined data type i.e. Object.
 - To use state we use useState hook. 
+- We need to import React and useState both when we use state.
 
 
 ### **Prop**
 - Prop is short form of properties.
 - For understanding purpose, prop is just like parameter. Prop & Component = Parameter and function.
 - We can change the prop in the component in which we are receiving it.
+
+### **Show Hide field based on button click**
+
+
