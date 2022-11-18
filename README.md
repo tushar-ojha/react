@@ -15,7 +15,6 @@
 	
 	3. .gitignore has nothing to do with react or node. It is related to git. We never commit node modules so this is how we avoid it; by writing that in this file.
 	
-	
 	4. src where all our code is present.
 	
 	5. src/App.js : We start writing code from here.
@@ -77,3 +76,4 @@
 ### **Show Hide field based on button click**
 
 
+### **Conditional rendering**
